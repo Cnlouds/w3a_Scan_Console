@@ -1,5 +1,12 @@
 #!/usr/bin/python
 # vim: set fileencoding=utf-8:
+
+###########################################
+#
+#   sprider 爬虫类(实现页面爬虫)
+#
+###########################################
+
 import sys
 import urllib2
 import re

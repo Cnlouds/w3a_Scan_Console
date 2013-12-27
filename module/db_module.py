@@ -1,10 +1,15 @@
 #!/usr/bin/python
 # vim: set fileencoding=utf-8:
 
+###########################################
+#
+#   db数据库类(实现数据库操作)
+#
+###########################################
+
 import sys
 import ConfigParser
 import MySQLdb as mdb
-
 
 
 class Db_Connector:

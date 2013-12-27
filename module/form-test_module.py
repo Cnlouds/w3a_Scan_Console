@@ -23,7 +23,7 @@ class Form_analy():
 			results=urllib2.urlopen(self.target,timeout=5).read()
 			soup=BeautifulSoup(results)
 			input_items=[]
-			form_list_result=[]
+            form_list_result=[]
 			form_tmp_result={}
 
 			# 分析Html中的Form表单
