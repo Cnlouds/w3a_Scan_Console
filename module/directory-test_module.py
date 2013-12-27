@@ -56,4 +56,4 @@ class Directory_testing:
 t=Directory_testing("http://www.sohu.com")
 a=['/Admin','/adminfuck','/inc','/system']
 for i in a:
-	print t.get_results(i)
+	t.get_results(i)
