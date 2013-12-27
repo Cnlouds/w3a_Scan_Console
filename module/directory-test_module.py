@@ -53,7 +53,7 @@ class Directory_testing:
 		except:
 			print "[*] testing "+self.target+" Error!"
 
-t=Directory_testing("http://www.sohu.com")
+t=Directory_testing("http://www.163.com")
 a=['/Admin','/adminfuck','/inc','/system']
 for i in a:
-	t.get_results(i)
+	print t.get_results(i)
