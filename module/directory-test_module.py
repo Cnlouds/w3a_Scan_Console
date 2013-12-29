@@ -53,6 +53,15 @@ class Directory_testing:
 		except:
 			print "[*] testing "+self.target+" Error!"
 
+	# 导入目录字典
+	def load_dictionary(self.patch):
+		pass
+
+	# 主程序调用
+	def _main(self,):
+		if self.Error404()=="default":
+			self.default_mode()
+
 t=Directory_testing("http://www.163.com")
 a=['/Admin','/adminfuck','/inc','/system']
 for i in a:
